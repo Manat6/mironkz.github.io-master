@@ -1,0 +1,167 @@
+#body{
+	background-image: url(2.jpg);
+	background-repeat: no-repeat;
+	
+}
+.main-menu { 
+width: 180px; 
+margin: 0; 
+padding: 0; 
+list-style: none; 
+} 
+
+.main-menu a { 
+display: block; 
+padding: 8px 14px; 
+text-decoration: none; 
+color: blue; 
+border: 1px solid ; 
+} 
+
+.main-menu a:hover { 
+background: #f5f5f5; 
+} 
+
+.main-menu > li { 
+position: relative; 
+} 
+
+.main-menu .sub-menu { 
+position: absolute; 
+top: 10px; 
+left: 180px; 
+z-index: 10; 
+display: none; 
+width: 150px; 
+margin: 0; 
+padding: 0; 
+list-style: none; 
+background: #fcf8e3; 
+} 
+.main-menu > li:hover .sub-menu { 
+display: block; 
+} 
+.sub-menu .podmenu { 
+position: absolute; 
+top: 10px; 
+left: 150px; 
+z-index: 10; 
+display: none; 
+width: 150px; 
+margin: 0; 
+padding: 0; 
+list-style: none; 
+background: #fcf8e3; 
+} 
+.sub-menu > li:hover .podmenu { 
+display: block; 
+}
+#body2{
+background-image: url(5.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+}
+#at{
+color: blue;
+font-size: 10px;
+background-color: black;
+padding: 10px;
+border-radius: 20px;
+text-transform: uppercase;
+cursor: pointer;
+}
+#ata{
+color: blue;
+font-size: 10px;
+background-color: red;
+padding: 10px;
+border-radius: 20px;
+text-transform: uppercase;
+cursor: pointer;
+}
+#at1{
+color: blue;
+font-size: 15px;
+background-color: red;
+padding: 5px;
+border-radius: 20px;
+text-transform: uppercase;
+cursor: pointer;
+text-decoration: none;
+	color: white;
+}
+#at2{
+color: blue;
+font-size: 15px;
+background-color: black;
+padding: 5px;
+border-radius: 20px;
+text-transform: uppercase;
+cursor: pointer;
+text-decoration: none;
+	color: white;
+}
+body{
+	background-image: url(sy2.jpg);  
+}
+#we{
+	font-size: 30px;
+	color: red;
+}
+a{
+	text-decoration: none;
+	color: white;
+}
+#rasul1{
+	color: white;
+	font-size: 35px;
+	background-color: black;
+	padding: 10px;
+	border-radius: 50px ;
+	text-transform: uppercase;
+}
+#trt{
+	background-image: url(trt.jpg);
+	background-size: cover;
+}
+#rasul2{
+	background-image: url(rasul.jpg);
+	background-size: contain;
+	width: 250px;
+	height: 370px;
+	position: absolute;
+	top: 20%;
+	left: 50%;
+	border-radius: 20px;
+	border: 5px solid black;
+}
+#rasul4{
+	background: #30f060;
+	width: 170px;
+	height: 20px;
+	padding: 5px;
+	border-radius: 5px;
+	position: absolute;
+	top:21%;
+	left: 26%;
+}
+#rasul5{
+	width: 60px;
+	height: 50px;
+	position: absolute;
+	top:18.5%;
+	left: 20%;
+}
+#ras1{
+	background-image: url(vk.png);
+	background-size: contain;
+	width: 50px;
+	height: 50px;
+	position: absolute;
+	top:18%;
+	left: 15%;
+}
+#wew{
+	font-size: 30px;
+	color: black;
+}
